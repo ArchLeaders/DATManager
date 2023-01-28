@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Configurations>Debug;Release;Build</Configurations>
+	  
+	<GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="DATExtract">
-      <HintPath>..\DATExtract\DATExtract\bin\x64\Debug\net6.0\DATExtract.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="DATExtract\DATExtract\DATExtract.csproj" />
   </ItemGroup>
 
   <ItemGroup>
