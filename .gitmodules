@@ -3,4 +3,4 @@
 	url = https://github.com/connorh315/ModLib
 [submodule "DATExtract"]
 	path = DATExtract
-	url = https://github.com/connorh315/DATExtract
+	url = https://github.com/ArchLeaders/DATExtract
